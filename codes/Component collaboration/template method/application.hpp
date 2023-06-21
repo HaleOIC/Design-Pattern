@@ -6,8 +6,8 @@
 class Application: public Library {
 public:
 	// overload the function in the base class
-	bool step2();
-	void step4();
+	virtual bool step2();
+	virtual void step4();
 
 
 	// stable part
